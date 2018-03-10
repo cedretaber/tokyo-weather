@@ -5,7 +5,7 @@ class ReportScraper
   def initialize(lat, lon, base_url = nil)
     @lat = lat
     @lon = lon
-    @url = "#{base_url || BASE_URL}#{lat}/#{lon}"
+    @url = "#{base_url || BASE_URL}#{lat}/#{lon}/temp=c"
   end
 
   def scrape_weather_report
