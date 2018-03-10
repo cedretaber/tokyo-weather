@@ -1,3 +1,6 @@
 _env.rb
+
+Gemfile.lock
+
 .bundle
 vendor/bundle
