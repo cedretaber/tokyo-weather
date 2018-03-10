@@ -1,1 +1,3 @@
 _env.rb
+.bundle
+vendor/bundle
